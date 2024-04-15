@@ -1,4 +1,4 @@
-package Polimorfismo;
+package polimorfismo.animais;
 
 public class TesteSemVariaveisPolimorficas {
     public static void main(String[] args) {

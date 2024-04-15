@@ -1,4 +1,4 @@
-package Polimorfismo;
+package polimorfismo.animais;
 
 public class Animal {
     public void fazerBarulho(){
