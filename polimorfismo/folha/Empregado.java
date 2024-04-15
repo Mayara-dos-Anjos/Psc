@@ -1,4 +1,3 @@
-package polimorfismo.folha;
 
 public class Empregado {
     private int tipo;
