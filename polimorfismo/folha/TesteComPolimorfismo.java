@@ -10,7 +10,7 @@ public class TesteComPolimorfismo {
             switch (tipo) {
                 case 1:{
                     double salario = gerador.nextDouble() * 1500+500;
-                    
+                    empregados[i] = new EmpregadoAssalariado(salario);
                 }
             }
         }
