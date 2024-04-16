@@ -11,8 +11,31 @@ public class TesteComPolimorfismo {
                 case 1:{
                     double salario = gerador.nextDouble() * 1500+500;
                     empregados[i] = new EmpregadoAssalariado(salario);
+                    break;
+                }
+                case 2:{
+                    double salario = gerador.nextDouble() * 1200+300;
+                    double comissao = gerador.nextDouble();
+                    empregados[i] = new EmpregadoAssalariadoComissionado(salario, comissao);
+                    break;
+                }
+                case 3:{
+                    double salario = gerador.nextDouble() * 1200+300;
+                    double comissao = gerador.nextDouble();
+                    double bonus = gerador.nextDouble()*500;
+                    empregados[i] = new EmpregadoAssalariadoComissionadoBonificado(salario, comissao, bonus);
+                    break;
+                }
+                case 4:{
+                    int numeroHoras = gerador.nextInt(101)*60;
+                    double valorHora = gerador.nextDouble()*20+30;
+                    empregados[i]= new EmpregadoHorista(valorHora, numeroHoras);
+                    break;
                 }
             }
+        }
+        for (int i = 0; i < empregados.length; i++) {
+            System.out.printf(" Empregado %d: %.2f", i+1, empregados[i].calcularSalario());
         }
     }
 }
