@@ -1,4 +1,4 @@
-package heranca.Animal;
+package heranca.animal;
 
 public class Teste {
     public static void main(String[] args) {

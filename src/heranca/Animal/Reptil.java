@@ -1,4 +1,4 @@
-package heranca.Animal;
+package heranca.animal;
 
 public class Reptil extends Oviparo {
 

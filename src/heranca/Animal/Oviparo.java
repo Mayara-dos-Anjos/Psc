@@ -1,4 +1,4 @@
-package heranca.Animal;
+package heranca.animal;
 
 public class Oviparo extends Animal {
     boolean temAsa;
