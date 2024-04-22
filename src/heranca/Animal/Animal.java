@@ -1,4 +1,4 @@
-package src.folha.heranca.Animal;
+package heranca.Animal;
 
 public abstract class Animal {
     String nome;

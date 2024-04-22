@@ -1,4 +1,4 @@
-package src.folha.heranca.Figura;
+package heranca.Figura;
 
 public class Figura2D extends Figura {
     

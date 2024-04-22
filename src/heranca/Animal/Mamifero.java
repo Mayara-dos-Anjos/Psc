@@ -1,4 +1,4 @@
-package src.folha.heranca.Animal;
+package heranca.Animal;
 
 public class Mamifero extends Animal{
     public Mamifero(String nome){

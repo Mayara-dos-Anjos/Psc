@@ -1,4 +1,4 @@
-package src.folha.heranca.Pessoa;
+package heranca.Pessoa;
 public class AlunoPosGraduacao extends Aluno {
 
     char conceito;

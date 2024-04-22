@@ -1,4 +1,4 @@
-package src.folha.heranca.Pessoa;
+package heranca.Pessoa;
 public class TesteComHeranca1 {
     public static void main(String[] args) {
         AlunoDeGraduacao aluno = new AlunoDeGraduacao();
